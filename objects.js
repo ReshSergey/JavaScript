@@ -1,3 +1,5 @@
+'use strict'
+
 const personal = {
     name: 'Sergey',
     age: 34,
@@ -19,8 +21,8 @@ const personal = {
 personal.makeTest();
 
 // Деструктуризация Объекта
-const {up, down, head} = personal.clothes;
-console.log(down);
+const {up, down: d, head} = personal.clothes;
+console.log(d);
 
 //Длинна или количество ключей объекта
 console.log(Object.keys(personal).length);
