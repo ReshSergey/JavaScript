@@ -43,3 +43,10 @@ for (let key in personal) {
     }
 }
 console.log(conter);
+
+
+const arrNum = [1, 2, 7, 16, 22];
+// arrNum.pop();
+// arrNum.push(50);
+arrNum.split(", ");
+console.log(arrNum);
